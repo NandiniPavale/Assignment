@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .logo {
+      font-size: 3rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      background-color: rgb(23, 26, 48);
+      color: aliceblue;
+    }
+
+    nav ul {
+      display: flex;
+      /*justify-content: center;*/
+      margin-left: 0px;
+
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    button {
+      border: dotted;
+      background: none;
+      color: aliceblue;
+    }
+
+    button:hover {
+      background-color: rgb(31, 163, 196);
+      color: black;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 0px 0;
+      background-color: rgb(39, 41, 43);
+    }
+
+    .firstSection div {
+      width: 30%;
+
+    }
+
+    .leftSection {
+      
+      font-size: 3rem;
+      color: aliceblue;
+
+
+    }
+
+    .rightSection {
+      margin-top: 50px;
+
+    }
+
+    .cardsec {
+      background-color: aliceblue;
+    }
+
+
+
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 30%;
+      padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+      margin: 0 -5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      text-align: left;
+      background-color: rgb(23, 26, 48);
+      color: aliceblue;
+      border-radius: 5px;
+    }
+
+    .secondSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 0px 0;
+      background-color: rgb(67, 75, 83);
+    }
+
+    .firstSection div {
+      width: 30%;
+
+    }
+
+    .leftSection2 {
+
+      font-size: 3rem;
+      color: aliceblue;
+
+
+    }
+
+    .rightSection2 {
+      margin-top: 50px;
+
+    }
+
+    .lastbtn {
+      background-color: lime;
+      color: black;
+      border: none;
+      height: 50px;
+      width: 120px;
+    }
+
+    .lastbtn:hover {
+      background-color: white;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">DEVM5</div>
+    <div class="left">
+      <ul>
+        <li>My Work</li>
+        <li>About me</li>
+        <li>Skills</li>
+        <li>Contact Me</li>
+        <li>Projects</li>
+
+      </ul>
+    </div>
+    <div class="right">
+      <button value="Get started">Get started</button> &nbsp;&nbsp; <button value="React More">Read More</button>
+    </div>
+
+  </nav>
+
+  <section class="firstSection">
+    <div class="leftSection">
+      <font size="4px">Professional Tool</font>
+      <font size="8px">
+        <div>Programming <br>
+          Language Partal</div>
+      </font>
+      <font size="3px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit massa in
+        facilisis malesuada.</font><br>
+      <button value="Get started">Get started</button> &nbsp;&nbsp; <button value="React More">Read More</button>
+    </div>
+
+    <div class="rightSection">
+      <img src="bgimg5.jpg" width="400" height="300">
+    </div>
+
+  </section>
+  <div class="cardsec">
+
+    <h1>
+      <center>Our Features</center>
+    </h1>
+    <font size="4px">
+      <center>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris leo<br> imperdiet commodo felis a
+        interdum. Nam lacinia nisl sed accumsan<br> hendrerit. In urna massa, ut ullamcorper leo porta et. Praesent
+        id<br> placerat justo.</center>
+    </font>
+    <br>
+    <br< <div class="row">
+      <div class="column">
+        <div class="card">
+          <h3>Optimized code</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Mobile Friendly</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <h3>Unique Styles</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+        </div>
+      </div>
+  </div>
+
+  <br>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <h3>Best solutions</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <h3>Time saving</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <h3>Professional Team</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+      </div>
+    </div>
+  </div>
+  <br><br>
+  </div>
+
+  <div class="bottom">
+    <section class="secondSection">
+      <div class="leftSection2">
+
+        <font size="8px">Get Started <br>
+          With our portal</font> <br>
+        <font size="3px"> Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Mauris imperdiet felis<br> a
+          interdum.</font><br>
+
+        <button class="lastbtn" value="Get started">Get started</button>
+
+      </div>
+      <div class="rightSection2">
+        <img src="bgimg5.jpg" width="400" height="300">
+
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
